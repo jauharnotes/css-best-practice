@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar CSS</title>
+    <style>
+        /* [title] {
+            color: green;
+        } */
+
+        /* li[title] {
+            color: green;
+        } */
+
+        /* [title="kota bandung"] {
+            color: green;
+        } */
+
+        /* [title~="kota"] {
+            color: green;
+        } */
+
+        /* [title*="ba"] {
+            color: green;
+        } */
+
+        /* [href^="https"] {
+            color: green;
+        } */
+
+        [href$=".pdf"] {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <h2 title="belajar css">belajar css</h2>
+        <li>Kota Depok</li>
+        <li title="kota bandung">Kota Bandung</li>
+        <li title="surabaya">Kota Surabaya</li>
+        <li><a title="kota medan" href="medan.html">Kota Medan</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Jakarta">Kota Jakarta</a></li>
+        <li><a title="kota makasar" href="makasar.pdf">Kota Makasar</a></li>
+    </ul>
+</body>
+</html>
